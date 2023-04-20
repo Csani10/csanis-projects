@@ -1,0 +1,12 @@
+C:\Users\ryzen\source\repos\CalcAlternative\CalcAlternative\bin\Debug\CalcAlternative.exe.config
+C:\Users\ryzen\source\repos\CalcAlternative\CalcAlternative\bin\Debug\CalcAlternative.exe
+C:\Users\ryzen\source\repos\CalcAlternative\CalcAlternative\bin\Debug\CalcAlternative.pdb
+C:\Users\ryzen\source\repos\CalcAlternative\CalcAlternative\bin\Debug\CalcAlternative.xml
+C:\Users\ryzen\source\repos\CalcAlternative\CalcAlternative\obj\Debug\CalcAlternative.vbprojAssemblyReference.cache
+C:\Users\ryzen\source\repos\CalcAlternative\CalcAlternative\obj\Debug\CalcAlternative.Form1.resources
+C:\Users\ryzen\source\repos\CalcAlternative\CalcAlternative\obj\Debug\CalcAlternative.Resources.resources
+C:\Users\ryzen\source\repos\CalcAlternative\CalcAlternative\obj\Debug\CalcAlternative.vbproj.GenerateResource.cache
+C:\Users\ryzen\source\repos\CalcAlternative\CalcAlternative\obj\Debug\CalcAlternative.vbproj.CoreCompileInputs.cache
+C:\Users\ryzen\source\repos\CalcAlternative\CalcAlternative\obj\Debug\CalcAlternative.exe
+C:\Users\ryzen\source\repos\CalcAlternative\CalcAlternative\obj\Debug\CalcAlternative.xml
+C:\Users\ryzen\source\repos\CalcAlternative\CalcAlternative\obj\Debug\CalcAlternative.pdb

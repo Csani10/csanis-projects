@@ -1,0 +1,12 @@
+C:\Users\ryzen\source\repos\Todo\Todo\bin\Debug\Todo.exe.config
+C:\Users\ryzen\source\repos\Todo\Todo\bin\Debug\Todo.exe
+C:\Users\ryzen\source\repos\Todo\Todo\bin\Debug\Todo.pdb
+C:\Users\ryzen\source\repos\Todo\Todo\bin\Debug\Todo.xml
+C:\Users\ryzen\source\repos\Todo\Todo\obj\Debug\Todo.vbprojAssemblyReference.cache
+C:\Users\ryzen\source\repos\Todo\Todo\obj\Debug\Todo.Form1.resources
+C:\Users\ryzen\source\repos\Todo\Todo\obj\Debug\Todo.Resources.resources
+C:\Users\ryzen\source\repos\Todo\Todo\obj\Debug\Todo.vbproj.GenerateResource.cache
+C:\Users\ryzen\source\repos\Todo\Todo\obj\Debug\Todo.vbproj.CoreCompileInputs.cache
+C:\Users\ryzen\source\repos\Todo\Todo\obj\Debug\Todo.exe
+C:\Users\ryzen\source\repos\Todo\Todo\obj\Debug\Todo.xml
+C:\Users\ryzen\source\repos\Todo\Todo\obj\Debug\Todo.pdb
