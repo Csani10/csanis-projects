@@ -75,3 +75,57 @@
 .navbar__links:hover {
     color: #02b0c7;
 }
+
+.project1 {
+    color: blue;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    text-align: center;
+    outline: 5px solid black;
+}
+
+.project2 {
+    color: blue;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    text-align: center;
+    outline: 5px solid black;
+}
+
+.project3 {
+    color: blue;
+    position: absolute;
+    top: 100px;
+    left: 580px;
+    text-align: center;
+    outline: 5px solid black;
+}
+
+.project1s {
+    color: blue;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    text-align: center;
+    outline: 5px solid black;
+}
+
+.project2s {
+    color: blue;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    text-align: center;
+    outline: 5px solid black;
+}
+
+.project3s {
+    color: blue;
+    position: absolute;
+    top: 100px;
+    left: 620px;
+    text-align: center;
+    outline: 5px solid black;
+}
