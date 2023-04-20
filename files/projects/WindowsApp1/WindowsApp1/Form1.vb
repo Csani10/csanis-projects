@@ -24,7 +24,7 @@
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         WebBrowser1.GoHome()
     End Sub
-    Private Sub WebBrowser1_Navigated(sender As Object, e As WebBrowserNavigatedEventArgs) Handles WebBrowser1.Navigated
+    Private Sub WebBrowser1_Navigated(sender As Object, e As WebBrowserNavigatedEventArgs)
         AddHandler WebBrowser1.Document.Window.Error, AddressOf Window_Error 'subscribe to the Error event
     End Sub
 
@@ -39,6 +39,11 @@
         Next
     End Sub
 
+    Private Sub WebBrowser1_DocumentCompleted(sender As Object, e As WebBrowserDocumentCompletedEventArgs)
 
+    End Sub
 
+    Private Sub TabControl1_SelectedIndexChanged(sender As Object, e As EventArgs)
+
+    End Sub
 End Class

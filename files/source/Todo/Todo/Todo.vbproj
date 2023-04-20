@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E442FCCD-5999-44CA-8A96-908652B70059}</ProjectGuid>
+    <ProjectGuid>{B9B96943-7E9E-4D62-B2FA-302E1C951387}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Browser.My.MyApplication</StartupObject>
-    <RootNamespace>Browser</RootNamespace>
-    <AssemblyName>Browser</AssemblyName>
+    <StartupObject>Todo.My.MyApplication</StartupObject>
+    <RootNamespace>Todo</RootNamespace>
+    <AssemblyName>Todo</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Browser.xml</DocumentationFile>
+    <DocumentationFile>Todo.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Browser.xml</DocumentationFile>
+    <DocumentationFile>Todo.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>

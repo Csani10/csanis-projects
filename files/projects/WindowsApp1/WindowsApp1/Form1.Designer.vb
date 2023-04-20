@@ -22,7 +22,6 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -30,22 +29,8 @@ Partial Class Form1
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
-        Me.TabControl1 = New System.Windows.Forms.TabControl()
-        Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.TabControl1.SuspendLayout()
+        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.SuspendLayout()
-        '
-        'WebBrowser1
-        '
-        Me.WebBrowser1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.WebBrowser1.Location = New System.Drawing.Point(42, 114)
-        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.Size = New System.Drawing.Size(1220, 628)
-        Me.WebBrowser1.TabIndex = 0
-        Me.WebBrowser1.Url = New System.Uri("http://google.com", System.UriKind.Absolute)
         '
         'TextBox1
         '
@@ -72,7 +57,7 @@ Partial Class Form1
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(88, 33)
         Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Keresés"
+        Me.Button1.Text = "Search"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
@@ -81,7 +66,7 @@ Partial Class Form1
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(88, 31)
         Me.Button2.TabIndex = 4
-        Me.Button2.Text = "Újratölt"
+        Me.Button2.Text = "Reload"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
@@ -109,27 +94,16 @@ Partial Class Form1
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(112, 33)
         Me.Button5.TabIndex = 7
-        Me.Button5.Text = "Otthon"
+        Me.Button5.Text = "Home"
         Me.Button5.UseVisualStyleBackColor = True
         '
-        'TabControl1
+        'WebBrowser1
         '
-        Me.TabControl1.Controls.Add(Me.TabPage1)
-        Me.TabControl1.Location = New System.Drawing.Point(402, 244)
-        Me.TabControl1.Name = "TabControl1"
-        Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(1220, 657)
-        Me.TabControl1.TabIndex = 8
-        '
-        'TabPage1
-        '
-        Me.TabPage1.Location = New System.Drawing.Point(4, 29)
-        Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(1212, 624)
-        Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "TabPage1"
-        Me.TabPage1.UseVisualStyleBackColor = True
+        Me.WebBrowser1.Location = New System.Drawing.Point(21, 73)
+        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebBrowser1.Name = "WebBrowser1"
+        Me.WebBrowser1.Size = New System.Drawing.Size(1219, 639)
+        Me.WebBrowser1.TabIndex = 8
         '
         'Form1
         '
@@ -137,7 +111,6 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1252, 724)
         Me.Controls.Add(Me.WebBrowser1)
-        Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
@@ -146,14 +119,11 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
-        Me.TabControl1.ResumeLayout(False)
+        Me.Text = "Browser"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents WebBrowser1 As WebBrowser
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
@@ -161,6 +131,5 @@ Partial Class Form1
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
-    Friend WithEvents TabControl1 As TabControl
-    Friend WithEvents TabPage1 As TabPage
+    Friend WithEvents WebBrowser1 As WebBrowser
 End Class
